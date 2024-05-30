@@ -1,0 +1,35 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.3.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		},
+		"ignore": [
+			"./.config",
+			"./node_modules",
+			"./.cache",
+			"./.replit",
+			"./.upm",
+			"./.local"
+		],
+		"include": ["./loader", "./index.ts", "./repl.config.ts"]
+	},
+	"javascript": {
+		"formatter": {
+			"enabled": true
+		},
+		"globals": [
+			"Bun",
+			"import.meta",
+			"globalThis.__REPL_START__",
+			"globalThis.__CODEPARK__"
+		],
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		}
+	}
+}

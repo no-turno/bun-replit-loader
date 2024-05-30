@@ -1,0 +1,4 @@
+preload = ["./loader/bun-config-loader.ts", "./loader/bun-replit-loader.ts"]
+
+[loader]
+".replit" = "toml"
