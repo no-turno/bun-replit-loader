@@ -9,8 +9,8 @@
 			"recommended": true
 		},
 		"ignore": [
-			"./.config",
-			"./node_modules",
+			".config/**/*",
+			"**/node_modules/**/*",
 			"./.cache",
 			"./.replit",
 			"./.upm",

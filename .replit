@@ -12,7 +12,7 @@ BUN_CONFIG_MAX_HTTP_REQUESTS = "512"
 BUN_RUNTIME_TRANSPILER_CACHE_PATH = "0"
 BUN_CONFIG_NO_CLEAR_TERMINAL_ON_RELOAD = "1"
 npm_config_prefix = "/home/runner/.config/npm/node_globals"
-PATH = "/home/runner/.config/.bun/bin:/home/runner/.config/npm/node_globals/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
+PATH = "/home/runner/.config/.bun/bin:/home/runner/.config/npm/node_globals/bin:/home/runner/$REPL_SLUG/node_modules/.bin:/home/runner/$REPL_SLUG/.config/.bun/bin"
 
 [languages]
 [languages.javascript]

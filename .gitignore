@@ -175,7 +175,7 @@ dist
 .DS_Store
 
 
-./types
+types/*.d.ts
 
 ./package-lock.json
 

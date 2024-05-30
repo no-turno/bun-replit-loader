@@ -2,9 +2,12 @@
   "name": "@no-turno/replit-config-loader",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "typescript": "^5.5.0-dev.20240529"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "dependencies": {
+    "@biomejs/js-api": "^0.6.0",
+    "@biomejs/wasm-nodejs": "^1.7.3",
+    "confbox": "^0.1.7"
   }
 }
